@@ -84,7 +84,7 @@ export const Hero = () => {
             <img
               src={profileImg}
               alt="Anita Lottering portrait"
-              className="w-full h-full object-cover grayscale"
+              className="w-full h-full object-cover"
               width={1080}
               height={1350}
             />

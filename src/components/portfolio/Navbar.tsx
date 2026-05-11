@@ -54,8 +54,8 @@ export const Navbar = () => {
                 href={l.href}
                 className={`px-4 py-2 rounded-full text-sm font-medium transition-smooth ${
                   active === l.href.slice(1)
-                    ? "bg-primary/30 text-primary-foreground"
-                    : "text-muted-foreground hover:text-foreground hover:bg-white/60"
+                    ? "bg-blue-600 text-white"
+                    : "text-foreground hover:text-white hover:bg-blue-600"
                 }`}
               >
                 {l.label}
@@ -65,7 +65,7 @@ export const Navbar = () => {
         </ul>
         <a
           href="#contact"
-          className="md:hidden px-4 py-2 rounded-full text-sm font-medium bg-primary/30 text-primary-foreground"
+          className="md:hidden px-4 py-2 rounded-full text-sm font-medium bg-blue-600 text-white"
         >
           Hi
         </a>
