@@ -40,7 +40,7 @@ export const Contact = () => {
           </div>
           <div className="flex gap-3">
             <Button asChild size="lg" className="rounded-full bg-gradient-primary hover:shadow-hover transition-smooth border-0 text-primary-foreground">
-              <a href="/Anita-Lottering-CV.pdf" download>
+              <a href="/Anita-Lottering-CV.pdf" target="_blank" rel="noreferrer" download>
                 <Download className="w-4 h-4 mr-2" /> Download CV
               </a>
             </Button>

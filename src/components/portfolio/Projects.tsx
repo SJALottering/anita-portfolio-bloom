@@ -1,4 +1,4 @@
-import { ArrowUpRight, Sparkles, Bot, BarChart3 } from "lucide-react";
+import { ArrowUpRight, Sparkles, Bot, BarChart3, Train } from "lucide-react";
 
 const projects = [
   {
@@ -26,6 +26,15 @@ const projects = [
     tag: "Web · Data",
     color: "bg-pastel-mint",
     href: "https://anitalottering-sentiment-analysis.netlify.app/",
+    cta: "View Project",
+  },
+  {
+    icon: Train,
+    title: "Smart Commute App",
+    desc: "A smart public transport companion app (PRASA Smart Connect) that helps commuters plan trips, track schedules, and navigate the rail network with ease.",
+    tag: "Web · Mobility",
+    color: "bg-pastel-peach",
+    href: "https://prasa-smart-connect.netlify.app/",
     cta: "View Project",
   },
 ];

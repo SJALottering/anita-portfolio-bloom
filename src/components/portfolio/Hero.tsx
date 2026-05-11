@@ -44,7 +44,7 @@ export const Hero = () => {
               variant="outline"
               className="rounded-none border-2 border-foreground text-foreground bg-transparent hover:bg-foreground hover:text-background transition-smooth px-8 h-12 font-semibold"
             >
-              <a href="/Anita-Lottering-CV.pdf" download>
+              <a href="/Anita-Lottering-CV.pdf" target="_blank" rel="noreferrer" download>
                 <Download className="w-4 h-4 mr-2" /> Download CV
               </a>
             </Button>
