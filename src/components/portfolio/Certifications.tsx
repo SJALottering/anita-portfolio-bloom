@@ -2,21 +2,21 @@ import { Award } from "lucide-react";
 
 const certs = [
   {
-    title: "Diploma in ICT — Applications Development",
-    issuer: "Cape Peninsula University of Technology",
-    year: "2025",
+    title: "Generative AI with Large Language Models",
+    issuer: "DeepLearning.AI & AWS — Coursera",
+    year: "2026",
     color: "bg-pastel-pink",
   },
   {
-    title: "Higher Certificate in ICT",
-    issuer: "Cape Peninsula University of Technology",
-    year: "2022",
+    title: "Introduction to Generative AI",
+    issuer: "Coursera",
+    year: "2026",
     color: "bg-pastel-lavender",
   },
   {
-    title: "Web Application Developer Internship",
-    issuer: "Plum Systems Pty Ltd",
-    year: "2025",
+    title: "Python for Data Science, AI & Development",
+    issuer: "IBM — Coursera",
+    year: "2026",
     color: "bg-pastel-blue",
   },
 ];
