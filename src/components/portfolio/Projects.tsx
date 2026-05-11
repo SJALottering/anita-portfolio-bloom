@@ -1,4 +1,4 @@
-import { ArrowUpRight, Sparkles, Bot } from "lucide-react";
+import { ArrowUpRight, Sparkles, Bot, BarChart3 } from "lucide-react";
 
 const projects = [
   {
@@ -7,17 +7,26 @@ const projects = [
     desc: "An AI-powered content generation platform that helps users create engaging written content quickly. Built with a modern web stack and a clean conversational UI.",
     tag: "Web · AI",
     color: "bg-pastel-pink",
-    href: "https://magic-content-lab.lovable.app/chat",
+    href: "https://contentmuse.netlify.app/",
     cta: "View Project",
   },
   {
     icon: Bot,
-    title: "Chatbot Module Assistant — CSC2001 Study Helper",
-    desc: "An AI-powered academic assistant designed to help students master the CSC2001 module. It answers concept questions, explains theory, and guides learners through past examples in a friendly chat interface.",
+    title: "Module Mate — Chat Module Assistant",
+    desc: "An AI-powered academic assistant designed to help students master their modules. It answers concept questions, explains theory, and guides learners through examples in a friendly chat interface.",
     tag: "AI · Education",
     color: "bg-pastel-lavender",
-    href: "#contact",
-    cta: "Learn More",
+    href: "https://github.com/AnitaLottering",
+    cta: "View Project",
+  },
+  {
+    icon: BarChart3,
+    title: "Social Media Sentiment Analysis",
+    desc: "A web app that analyzes social media content to detect sentiment, trends and tone. Built with a clean, data-driven UI to make insights easy to understand at a glance.",
+    tag: "Web · Data",
+    color: "bg-pastel-mint",
+    href: "https://anitalottering-sentiment-analysis.netlify.app/",
+    cta: "View Project",
   },
 ];
 
