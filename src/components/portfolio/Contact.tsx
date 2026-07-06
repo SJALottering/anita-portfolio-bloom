@@ -8,7 +8,7 @@ const contactItems = [
   { icon: Mail, label: "Email", value: "anitalottering16@gmail.com", href: "mailto:anitalottering16@gmail.com", color: "bg-pastel-pink" },
   { icon: Phone, label: "Phone", value: "+27 78 630 0493", href: "tel:+27786300493", color: "bg-pastel-peach" },
   { icon: Github, label: "GitHub", value: "AnitaLottering", href: "https://github.com/AnitaLottering", color: "bg-pastel-lavender" },
-  { icon: Linkedin, label: "LinkedIn", value: "anita-lottering", href: "www.linkedin.com/in/sibahle-josline-anita-lottering-048627234", color: "bg-pastel-blue" },
+  { icon: Linkedin, label: "LinkedIn", value: "anita-lottering", href: "https://linkedin.com/in/sibahle-josline-anita-lottering-048627234", color: "bg-pastel-blue" },
   { icon: MapPin, label: "Location", value: "Cape Town, South Africa", href: null, color: "bg-pastel-mint" },
 ];
 
@@ -40,7 +40,7 @@ export const Contact = () => {
           </div>
           <div className="flex gap-3">
             <Button asChild size="lg" className="rounded-full bg-gradient-primary hover:shadow-hover transition-smooth border-0 text-primary-foreground">
-              <a href="/Anita-Lottering-CV.pdf" target="_blank" rel="noreferrer" download>
+              <a href="/Anita-Lottering-CV (4).pdf" target="_blank" rel="noreferrer" download>
                 <Download className="w-4 h-4 mr-2" /> Download CV
               </a>
             </Button>

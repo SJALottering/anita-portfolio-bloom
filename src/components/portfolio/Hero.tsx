@@ -44,7 +44,7 @@ export const Hero = () => {
               variant="outline"
               className="rounded-none border-2 border-foreground text-foreground bg-transparent hover:bg-foreground hover:text-background transition-smooth px-8 h-12 font-semibold"
             >
-              <a href="/Anita-Lottering-CV.pdf" target="_blank" rel="noreferrer" download>
+              <a href="/Anita-Lottering-CV (4).pdf" target="_blank" rel="noreferrer" download>
                 <Download className="w-4 h-4 mr-2" /> Download CV
               </a>
             </Button>
@@ -61,7 +61,7 @@ export const Hero = () => {
               <Github className="w-5 h-5" />
             </a>
             <a
-              href="https://www.linkedin.com/in/anita-lottering-95989a347/"
+              href="https://linkedin.com/in/sibahle-josline-anita-lottering-048627234"
               target="_blank"
               rel="noreferrer"
               className="text-foreground hover:opacity-60 transition-smooth"
